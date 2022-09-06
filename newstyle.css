@@ -34,6 +34,10 @@ button:focus {
   font-size: 30px;
 }
 
+.nav-item {
+  margin: 6px 0;
+}
+
 h2 {
   font-family: "Roboto Slab", serif;
 
@@ -42,6 +46,13 @@ h2 {
 a, p {
   font-family: "Merriweather", serif;
 }
+
+@media (min-width: 992px) {
+  .nav-item {
+    margin: 0 20px;
+  }
+}
+
 
 @media (max-width: 517px) {
   .nav-link {
