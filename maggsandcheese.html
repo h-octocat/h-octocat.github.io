@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style media="screen">
+    body {
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>The new BETTER variation of Kraft Mac &amp; Cheese has come out!!!</h1>
+
+  <button id="show">Show ME</button>
+  <img id="maggs"src="maggs&cheese.png" hidden="true" alt="maggie's maggs and cheese">
+  <script>
+    document.getElementById("show").addEventListener("click", myFunction);
+
+    function myFunction() {
+      document.getElementById("show").setAttribute("hidden", "true")
+      document.getElementById("maggs").removeAttribute("hidden")
+    }
+  </script>
+</body>
+
+</html>
